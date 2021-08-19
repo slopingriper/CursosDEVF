@@ -1,0 +1,74 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    background-image: url(https://universe-meeps.leagueoflegends.com/v1/assets/images/factions/noxus_splash.jpg);
+    display: grid;
+    color:#937341
+}
+.navBar{
+
+    background: rgba(1, 36, 53, 0.5) ;
+    text-align: center ;
+}
+
+a{
+    color:#937341;
+    font-size: 35px;
+    padding: 0px 15px;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#b98634fd
+}
+
+.containerImgs{
+    background: rgba(0, 0, 0, 0.5) ;
+    padding: 0px 0px 25px;
+    text-align: center;
+    justify-content: center;
+}
+h1{
+    padding: 25px;
+}
+.containerRegiones{
+    padding: 0px 0px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.secciones{
+
+    height: 130px;
+    width: 135px;
+}
+.secciones:hover{
+    cursor: pointer;
+    height: 140px;
+    width: 145px;
+}
+.textos{
+    font-family:fantasy;
+    font: 45px;
+}
+
+.containerTexto{
+    padding: 25px;
+    font-size: 20px;
+}
+footer {
+    color: #fff;
+    background: rgb(1, 39, 46);
+    text-align: center;
+    font-family: 15px;
+}
+.luximg{
+    border-radius: 50px;
+    width: 350px;
+    height: 200px;
+}
+i{
+    font-size: 35px;
+}
