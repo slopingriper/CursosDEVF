@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+}
+a{
+    writing-mode: vertical-lr;
+    text-decoration: none;
+    font-size:25px;
+    color: #fff;
+}
+.masBanderas{
+    background: rgba(0, 32, 91, 0.644);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+.Noruega::first-letter{
+    color:rgb(0,32,91);
+}
+.Jamaica::first-letter{
+    color:rgb(255, 184, 28);
+}
+.Japon::first-letter{
+    color:rgb(255, 0, 0);
+}
+.Noruega:hover{
+    color:rgb(0,32,91);
+}
+.Jamaica:hover{
+    color:rgb(255, 184, 28);
+}
+.Japon:hover{
+    color:rgb(255, 0, 0);
+}
+
+/* Bandera de Noruega*/ 
+.cuadroDerecho, .cuadroIzquierdo{
+    display: flex;
+    background: rgb(0,32,91);
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cuadroIzquierdo{
+    height: 100%;
+    width: 25%;
+}
+.cuadroDerecho{
+    height: 100%;
+    width: 75%;
+    align-items: flex-end;
+}
+.izquierdoSuperior, .izquierdoInferior,.derechoSuperior, .derechoInferior{
+    width: 90%;
+    height: 43%;
+    background: rgb(253, 253, 253);
+    display: flex;
+}
+.rojoIzquierdo, .rojoDerecho{
+    background: rgb(186, 12, 47);
+}
+/*Parte Izquierda*/
+.izquierdoInferior{
+    align-items: flex-end;
+}
+.rojoIzquierdo{
+    width: 80%;
+    height: 80%;
+}
+
+/*Parte Derecha*/
+.derechoSuperior, .derechoInferior{
+    justify-content: flex-end;
+
+}
+.derechoInferior{
+    align-items: flex-end;
+}
+.rojoDerecho{
+    width: 92%;
+    height: 80%;
+}
+

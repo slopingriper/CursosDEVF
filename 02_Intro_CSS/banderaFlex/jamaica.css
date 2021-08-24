@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+}
+/*Barra de Navegacion*/
+a{
+    writing-mode: vertical-lr;
+    text-decoration: none;
+    font-size:25px;
+    color: #fff;
+}
+.masBanderas{
+    background: rgba(0, 32, 91, 0.644);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+.Noruega::first-letter{
+    color:rgb(0,32,91);
+}
+.Jamaica::first-letter{
+    color:rgb(255, 184, 28);
+}
+.Japon::first-letter{
+    color:rgb(255, 0, 0);
+}
+.Noruega:hover{
+    color:rgb(0,32,91);
+}
+.Jamaica:hover{
+    color:rgb(255, 184, 28);
+}
+.Japon:hover{
+    color:rgb(255, 0, 0);
+}
+
+/*Bandera de Jamaica*/
+.cuadroDerecho, .cuadroIzquierdo{
+    display: flex;
+    background: rgb(0,155,58);
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+}
+.cuadroIzquierdo{
+}
+.cuadroDerecho{
+    
+}
+.izquierdoSuperior, .izquierdoInferior, .derechoSuperior, .derechoInferior{
+    background: rgb(254,209,0);
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.negroIzquierdo,.negroDerecho{
+    height: 75%;
+    width: 100%;
+    background: black;
+    
+ }
+/*Parte Izquierda*/
+.izquierdoSuperior{
+    align-items: flex-end;
+    clip-path: polygon(20% 0%, 150% 110%, 0% 200%, 0% 0%);
+}
+.izquierdoInferior{
+    clip-path: polygon(125% 0%, 10% 112%, 0% 200%, 0% 0%);
+    
+}
+.izquierdoSuperior > .negroIzquierdo{
+    clip-path: polygon(80% 101%, 100% 100%, 0% 200%, 0% 0%);
+}
+
+.izquierdoInferior > .negroIzquierdo{
+    clip-path: polygon(80% 0%, 0% 100%, 0% 0%, 0% 0%);
+}
+/*Parte Derecha*/
+.derechoSuperior{
+    align-items: flex-end;
+    clip-path: polygon(100% 0%, 100% 100%, -41% 101%, 83% 0%);
+}
+.derechoInferior{
+    clip-path: polygon(0% 0%, 100% 0%, 180% 200%, -25% 0%);
+    
+    
+}
+.derechoSuperior > .negroDerecho{
+    clip-path: polygon(100% 0%, 100% 100%, 9% 114%, 100% 0%);
+}
+
+.derechoInferior > .negroDerecho{
+    clip-path: polygon(100% 0%, 100% 100%, 0% -25%, 0% 0%);
+}
+    
