@@ -1,0 +1,146 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cemaforo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: black; 
+    border-radius: 25px;
+    height: 200px;
+    width: 500px;
+
+}
+.verde,.amarillo,.rojo{
+    height:70%;
+    width:30%;
+    border-radius: 50%;
+    background: rgb(105, 105, 105);
+}
+@media screen and (min-width:200px) {
+    .cemaforo{
+        flex-direction: column;
+        height: 500px;
+        width: 200px;
+    }
+    .verde,.amarillo,.rojo{
+        height:30%;
+        width:70%;
+        border-radius: 50%;
+        background: rgb(105, 105, 105);
+    }
+}
+@media screen and (min-width:250px) {
+     .verde{
+        background: chartreuse;
+     }
+     .amarillo{
+        background: rgb(105, 105, 105);
+     }
+     .rojo{
+        background: rgb(105, 105, 105);
+     }
+ }
+ @media screen and (min-width:350px) {
+     .verde{
+        background: rgb(105, 105, 105);
+     }
+     .amarillo{
+        background: rgb(251, 255, 0);
+     }
+     .rojo{
+        background: rgb(105, 105, 105);
+     }
+}
+@media screen and (min-width:450px) {
+     .verde{
+        background: rgb(105, 105, 105);
+
+     }
+     .amarillo{
+        background: rgb(105, 105, 105);
+
+     }
+     .rojo{
+        background: rgb(255, 2, 2);
+
+     }
+}
+@media screen and (min-width:500px) {
+     .verde{
+        background: chartreuse;
+
+     }
+     .amarillo{
+        background: rgb(251, 255, 0);
+
+     }
+     .rojo{
+        background: rgb(255, 2, 2);
+
+     }
+}
+
+ @media screen and (min-width:550px) {
+    .cemaforo{
+        flex-direction: row;
+        height: 200px;
+        width: 500px;
+    }
+    .verde,.amarillo,.rojo{
+        height:70%;
+        width:30%;
+        border-radius: 50%;
+    }
+     .verde{
+        background: chartreuse;
+     }
+     .amarillo{
+        background: rgb(105, 105, 105);
+     }
+     .rojo{
+        background: rgb(105, 105, 105);
+     }
+ }
+ @media screen and (min-width:720px) {
+     .verde{
+        background: rgb(105, 105, 105);
+     }
+     .amarillo{
+        background: rgb(251, 255, 0);
+     }
+     .rojo{
+        background: rgb(105, 105, 105);
+     }
+}
+@media screen and (min-width:940px) {
+     .verde{
+        background: rgb(105, 105, 105);
+
+     }
+     .amarillo{
+        background: rgb(105, 105, 105);
+
+     }
+     .rojo{
+        background: rgb(255, 2, 2);
+
+     }
+}
+@media screen and (min-width:1280px) {
+     .verde{
+        background: chartreuse;
+
+     }
+     .amarillo{
+        background: rgb(251, 255, 0);
+
+     }
+     .rojo{
+        background: rgb(255, 2, 2);
+
+     }
+}

@@ -2,17 +2,19 @@
     padding: 0%;
     margin: 0%;
 }
+body{
+    height: 100vh;
+    width: 100vw;
+}
 .container{
     background-image: url(https://universe-meeps.leagueoflegends.com/v1/assets/images/factions/noxus_splash.jpg);
     display: grid;
     color:#937341
 }
 .navBar{
-
     background: rgba(1, 36, 53, 0.5) ;
     text-align: center ;
 }
-
 a{
     color:#937341;
     font-size: 35px;

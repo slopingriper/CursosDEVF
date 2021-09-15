@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    background: url(https://img.freepik.com/vector-gratis/fondo-colorido-modelo-huellas-pata-perro-o-gato_1017-30662.jpg?size=626&ext=jpg);
+}
+.container-nav{
+    position: fixed;
+    background: rgb(221, 109, 4);
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+p ,{
+   color: black; 
+   font-size: 25px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.descripcion{
+    background: rgb(254, 254, 255);
+    align-self: center;
+    width: 80%;
+    border-radius: 5%;
+    
+}
+.container{
+justify-content:center;
+display: flex;
+flex-flow: column;
+}
+
+.container-texto{
+    width: 100%;
+    word-wrap: break-word;
+    display: flex;
+    justify-content: center;
+}
+
+.container-fotos{
+    align-self: center;
+    height: 100%;
+    display: grid;
+    grid-gap: 1.5rem; 
+}
+figcaption{
+    color: cornsilk;
+}
+.cachorros{
+    display: flex;
+    flex-flow: column ;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: black;
+    height: 100%;
+    width:100%;
+}
+img{
+    border-radius: 25px;
+    width: 90%;
+    height: 90%;
+    object-fit: fill;
+    display: block; 
+}
+@media screen and (min-width:350px ) {
+    .container-fotos{
+        align-self: center;
+        padding: 50px 15%;
+        height: 100%;
+        width: 100%;    
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 1.5rem; 
+       
+ }
+
+ @media screen and (min-width:920px ) {
+    .container-fotos{
+        align-self: center;
+        padding: 50px 15%;
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 1.5rem; 
+        
+ }
+ @media screen and (min-width:1440px ) {
+    body{
+        background: url(https://img.freepik.com/vector-gratis/fondo-colorido-modelo-huellas-pata-perro-o-gato_1017-30662.jpg?size=626&ext=jpg);
+    }
+   .container-fotos{
+       align-self: center;
+       padding: 50px 15%;
+       height: 100%;
+       width: 100%;
+       display: grid;
+       grid-template-columns: repeat(4,1fr);
+       grid-gap: 1.5rem; 
+       
+}
